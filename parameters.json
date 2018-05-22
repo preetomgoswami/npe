@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value": "australiasoutheast"
+        },
+        "virtualMachineName": {
+            "value": "MGTINF0003CT"
+        },
+        "virtualMachineSize": {
+            "value": "Standard_E4s_v3"
+        },
+        "adminUsername": {
+            "value": "admin-azure"
+        },
+        "virtualNetworkName": {
+            "value": "AZ-MC-VNET-C-T"
+        },
+        "networkInterfaceName": {
+            "value": "MGTINF0003CT-NIC"
+        },
+        "adminPassword": {
+            "value": "T1meP@$$4Preetom"
+        },
+        "diagnosticsStorageAccountName": {
+            "value": "azmcstgsharedsvcdiagct"
+        },
+        "diagnosticsStorageAccountId": {
+            "value": "/subscriptions/a0cacc40-1ab3-423e-98ab-959ec7c19bbd/resourceGroups/AZ-RG-MC-STG-C-T/providers/Microsoft.Storage/storageAccounts/azmcstgsharedsvcdiagct"
+        },
+        "subnetName": {
+            "value": "Shared-Services-Subnet"
+        }
+    }
+}
